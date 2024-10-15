@@ -1,14 +1,30 @@
-# Sentiment_analysis_project
-This repository contains a sentiment analysis project that classifies reviews from a Coursera review site as positive or negative. The project leverages logistic regression and employs various data preprocessing techniques to prepare the data for analysis.
-Features:
-Data collection through web scraping
-Text preprocessing including tokenization and stopword removal
-Model training using logistic regression
-Performance evaluation with accuracy scoring
-API built with FastAPI for real-time sentiment classification
-Getting Started:
-Clone the repository.
-Install the required packages using pip install -r requirements.txt.
-Run the FastAPI server to access the sentiment analysis API.
-Usage:
-Use Postman or any API client to send requests and receive sentiment predictions.
+# Project Documentation
+
+## 1. Project Title
+**Sentiment Analysis API**
+
+## 2. Project Description
+The Sentiment Analysis API provides a service to analyze course feedback and reviews to classify sentiments as **positive** or **negative**. This can help educators understand student perceptions and improve course quality based on the feedback received.
+
+## 3. Objectives
+- To classify course reviews based on sentiment.
+- To provide a RESTful API for easy integration with other applications.
+- To deliver responses in a user-friendly JSON format.
+
+## 4. Technology Stack
+- **Programming Language**: Python
+- **Framework**: FastAPI
+- **Machine Learning**: Scikit-learn for model training
+- **Data Handling**: Pandas for data manipulation
+- **Serialization**: Pickle for model and vectorizer storage
+
+## 5. Installation
+
+### Prerequisites
+Ensure that you have Python 3.8 or higher installed on your machine.
+
+### Install Dependencies
+You can install the required packages using:
+```bash
+pip install -r requirements.txt
+
