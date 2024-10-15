@@ -1,0 +1,5 @@
+Python 3.8+
+FastAPI
+Scikit-learn
+Pickle
+TfidfVectorizer
